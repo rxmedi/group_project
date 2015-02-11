@@ -121,3 +121,40 @@ a:hover img { display:block; }
     z-index:0;
 /*  margin:0 auto;
 */}
+.ContactBox{
+    position:relative;
+    font-family: 'Roboto Slab', plain;
+    font-size: 140%;
+    color: #feffff; 
+    margin-top: 0%;
+    margin-left: 60%;
+    margin-right: 10%;
+    margin-bottom:0%;
+    text-align: left;
+    min-width:400px;
+}
+.PilotBox2{
+  font-family: 'Roboto Slab', plain;
+    font-size: 140%;
+    color: #68a6ec; 
+    margin-top: 0px;
+    margin-left: 807px;
+    margin-right: 10%;
+    text-align: left;
+    min-width:350px;
+}
+a {
+   /* normal link styles here */
+   /*color:#112288;*/
+   /*color:#79adea;*/
+   color:#ccccff;
+}
+
+a:visited {
+   /* visited link styles here */
+   /*color:aa2255;*/
+ /*  color:#ea4322;*/
+/*   color:#fc6544;*/
+  color:#c82100;
+   text-outline: 1px 1px #000000;
+}
