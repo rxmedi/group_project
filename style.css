@@ -8,9 +8,10 @@ html {
 }
 h1{
     position:relative;
-font-family: 'Crafty Girls', cursive;    font-size: 500%;
+font-family: 'Crafty Girls', cursive;    
+  font-size: 700%;
     color: #68a6ec; 
-    margin-top: 7%;
+    margin-top: 4%;
     text-align: center;
     min-width:999px;
     z-index:-2;
@@ -101,7 +102,7 @@ a:hover img { display:block; }
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 250px;
+  padding-top: -30px;
   margin-left:13%;
   height: 0;
     z-index:-3;
