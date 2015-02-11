@@ -1,0 +1,45 @@
+body {
+	width:1200px;
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+}
+h1{
+	position:relative;
+	margin-left:20%;
+}
+.column1of2{
+	float: left;
+	width: 620px;
+	margin-left: 97px;
+}
+.column2of2{
+	float: left;
+	width: 300px;
+	margin: 40px;
+}
+.SocialBox{
+	position:fixed;
+	width:37px;
+	top:10%;
+	float:left;
+	border:3px solid #a1a1a1;
+	background:#FFF;
+	padding:18px;
+	-webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+}
+.column1of3{
+	float: left;
+	width: 300px;
+	margin-left: 97px;
+}
+.column2of3{
+	float: left;
+	width: 300px;
+	margin: 41px;
+}
+.column3of3{
+	margin-top:50px;
+}
+

@@ -1,0 +1,122 @@
+html { 
+  background: url(images/fdlandscape.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index:-3;
+}
+h1{
+    position:relative;
+font-family: 'Crafty Girls', cursive;    font-size: 500%;
+    color: #68a6ec; 
+    margin-top: 7%;
+    text-align: center;
+    min-width:999px;
+    z-index:-2;
+}
+title{
+    position:relative;
+font-family: 'Pacifico', plain;
+    font-size: 500%;
+    color: #68a6ec; 
+    margin-top: 7%;
+    text-align: center;
+    min-width:999px;
+    z-index:-2;
+}
+#menubar {
+    /*background: white*/;
+font-family: 'Shadows Into Light', cursive;
+    background-color:#cfcfcf;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    margin-top: 0;
+/*    max-width:10000px;
+*/    min-width:975px;
+
+}
+body #menubar {
+/*     margin: 0;  */
+}
+li {
+    display: inline; 
+    margin-right: 50px; 
+}
+ul {
+    height: 50px; 
+    width: 100%; 
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+font-family: 'Shadows Into Light', cursive;
+    font-size: 32px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: inline-block;  
+}
+
+#menubar ul {
+    margin: 0; 
+    list-style-type: none;
+/*     display: inline; */
+}
+
+#menubar a {
+  color: black;
+  text-decoration: none; 
+}
+
+#menubar a:hover {
+    color: #68a6ec; 
+}
+.my-button{   
+    padding: 10px 12px;   
+    border: 1px solid aqua;   
+    color: aqua;   
+    background-color: blue;   
+    text-decoration: none;   
+    display: inline-block;   
+    border-radius: 5px; } 
+.my-button:hover{   
+    margin: 2px 0 0 2px; }
+.SocialBox{
+    position:fixed;
+    width:37px;
+    top:10%;
+    float:left;
+    border:3px solid #a1a1a1;
+    background:#FFF;
+    padding:18px;
+    -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        z-index:5;
+}
+a img { display:none; }
+a:hover img { display:block; }
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 250px;
+  margin-left:13%;
+  height: 0;
+    z-index:-3;
+/*    margin: 200 auto 100 auto;
+*/
+}
+.videoWrapper iframe {
+  position: relative;
+  /*top: -5%;
+  left: 14%;
+  bottom:50px;*/
+/*  width: 75%;
+  height: 75%;*/
+  width: 960px;
+  height: 540px;
+    z-index:0;
+/*  margin:0 auto;
+*/}
